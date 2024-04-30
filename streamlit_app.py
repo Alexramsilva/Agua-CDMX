@@ -38,7 +38,7 @@ st.title('Ilhuicatl-Cielo (donde se forman las nubes y se origina el agua)')
 st.title('Predicción de Tipo de Consumo de Agua CDMX y ZMVM')
 
 # Recabar información para X_t1
-X_t1 = st.number_input('Ingresa tu consumo de agua semanal estimada', value=550)
+X_t1 = st.number_input('Ingresa tu consumo de agua semanal estimada en litros', value=550)
 
 # Predecir las categorías de gasto en el conjunto de prueba
 X_t1_array = np.array([X_t1])
